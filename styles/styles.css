@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
-.headline-container {
-  background-image: url(../images/mobile_intro_bg.png);
+.big-bkg-container {
+  background-image: url(../images/background-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -41,8 +47,8 @@ li {
   flex-direction: column;
   padding: 25px;
   background-color: rgba(0, 0, 0, 0.674);
-  backdrop-filter: blur(2px);
-  width: 85%;
+  backdrop-filter: blur(5px);
+  width: 100%;
   height: 100%;
   text-align: left;
   transition: 0.3s;
@@ -92,7 +98,8 @@ li {
 }
 
 .burger-menu.active .bar:nth-child(1) {
-  opacity: 0;
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .burger-menu.active .bar:nth-child(2) {
@@ -100,11 +107,16 @@ li {
 }
 
 .burger-menu.active .bar:nth-child(3) {
-  opacity: 0;
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 .organizer.active {
   left: 0;
+}
+
+body.active {
+  overflow-y: hidden;
 }
 
 .close-icon {
@@ -123,20 +135,29 @@ li {
  flex-direction: column;
  gap: 7px;
  text-align: left;
- margin: 0 auto;
- padding: 51px 25px 0 25px;
+ /*margin: 0 auto;*/
+ padding: 25px 25px 0 25px;
 }
 
 .slogan {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 25px;
+  color: #ec5242;
 }
 
-.my-h1 {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 2em;
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+  line-height: 55px;
+  color: transparent;
+  font-size: 50px;
   font-weight: bold;
   width: 80%;
+  background-image: url(../images/h1-bkg2.jpg);
+  background-size: cover;
+  background-clip: text;
+  background-position-y: bottom;
+  -webkit-background-clip: text;
+  margin-bottom: 7px;
 }
 
 .intro {
@@ -144,23 +165,27 @@ li {
   width: calc(100% - 2.5em);
   padding: 1em 0.5em;
   line-height: 150%;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   height: auto;
   text-align: justify;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
-  text-align: justify;
+}
+
+.intro-info {
+  width: calc(100% - 2.5em);
+  margin-bottom: 53px;
 }
 
 .companydate {
-  padding-top: 40px;
-  font: 700 15px Verdana;
+  padding: 20px 0px 0px;
+  font: 700 27px cocogoose;
   color: rgb(87, 87, 87);
 }
 
 .companylocation {
-  font: 400 13px Verdana;
+  font: 400 18px 'Lato', sans-serif;
   color: rgb(51, 51, 51);
 }
 
@@ -173,7 +198,7 @@ li {
 }
 
 .main {
-  background-image: url(../images/main-background-2.jpg);
+  background-image: url(../images/My\ project-1\ \(12\).png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -312,6 +337,57 @@ hr {
   width: 30px;
 }
 
+.sponsors {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 20px 0 30px 0;
+ }
+
+ .partner {
+ text-align: center;
+ font-size: 24px;
+ font-family: 'Lato', sans-serif;
+ border-bottom: 1px solid rgb(239, 81, 60);
+ padding: 15px;
+ width: 40%;
+ color: #fff;
+ }
+
+ .partner-logo {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0 15px 0px 15px;
+  width: 90%;
+ }
+
+ .logo1 {
+  width: 50px;
+ }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+
+.see-program-button {
+  display: none;
+}
+
+.organizer2 {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .nav-bar {
     min-height: 70px;
@@ -319,25 +395,35 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    background-color: white;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
-  .menu-sections {
+  .menu-stn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
 
-  .logo {
-    font-size: 2rem;
+  .logo2 {
+    width: 160px;
+    height: 60px;
+  }
+
+  .organizer2 {
+    display: flex;
+    gap: 47px;
   }
 
   .link-nav {
+    color: black;
     transition: 0.7s ease;
+    font-family: 'Lato', sans-serif;
   }
 
   .link-nav:hover {
-    color: orange;
+    color: #ec5242;
   }
 
   .burger-menu {
@@ -349,4 +435,104 @@ hr {
   .close-icon {
     display: none;
   }
+
+  .logo {
+    display: block;
+  }
+
+  .organizer {
+    display: none;
+  }
+
+  .nav-button {
+    font-family: cocogoose;
+    padding: 11px;
+    border: 5px solid #ec5242;
+    background-color: #fff;
+    color: #ec5242;
+  }
+
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 75px 0px 25px 0px;
+  }
+
+  .last-headline {
+    text-align: left;
+    max-width: 85%;
+    padding: 25px 25px 0 25px;
+  }
+
+  .intro-container {
+    width: 47%;
+    gap: 10px;
+  }
+
+  .main {
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px 40px 15px;
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 5px;
+    padding: 20px 105px;
+  }
+
+  .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-program-button {
+    display: block;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 50px;
+  }
+
+  .card-speaker {
+    width: 40%;
+  }
+
+  .speakers-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  .partner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.388);
+  }
+
+  .logo1 {
+    width: 50px;
+  }
+
+  .sponsors {
+    background-color: rgba(56, 56, 56, 0.971);
+  }
+
+  footer {
+    padding: 60px;
+  }
+
 }

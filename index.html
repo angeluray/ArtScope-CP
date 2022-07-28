@@ -6,58 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="big-bkg-container">
+
 <header class="myheader header">
         <nav class="nav-bar">
-            <a href="#" class="logo">ArtScope</a>
+            <a href="#" class="logo"><img src="images/rights-small.png" alt="#" class="logo2"></a>
+
            <div class="organizer organizer-close">
-            <div class="close-menu">
-                <img src="images/close.png" alt="close menu" class="close-icon">
-            </div>
-            <ul class="menu-sections">
-                <li class="mySpace"><a href="#" class="link-nav">About<img src="images/Union.png"alt="" class="larrow"></a></li>
-                <li><a href="#about-me" class="link-nav">Program<img src="images/Union.png" alt="" class="larrow"></a></li>
-                <li><a href="#contact-me" class="link-nav">Sponsor<img src="images/Union.png" alt=""class="larrow"></a></li>
-                <li><a href="#contact-me" class="link-nav">Join<img src="images/Union.png" alt=""class="larrow"></a></li>
-            </ul>
+              <ul class="menu-sections">
+                  <li class="mySpace"><a href="../angelCapstone-project/about.html" class="link-nav">About</a></li>
+                  <li><a href="#about-me" class="link-nav">Program</a></li>
+                  <li><a href="#contact-me" class="link-nav">Sponsor</a></li>
+                  <li><a href="#contact-me" class="link-nav">Join</a></li>
+              </ul>
            </div>
+
+         <div class="organizer2"> 
+           <ul class="menu-stn">
+            <li class="mySpace"><a href="../angelCapstone-project/about.html" class="link-nav">About</a></li>
+            <li><a href="#about-me" class="link-nav">Program</a></li>
+            <li><a href="#contact-me" class="link-nav">Join</a></li>
+            <li><a href="#contact-me" class="link-nav">Sponsor</a></li>
+            <li><a href="#contact-me" class="link-nav">News</a></li>
+           </ul>
+
+           <a href="#contact-me" class="link-nav"><button class="nav-button">AS Campaign</button></a>
+         </div> 
+         
             <div class="burger-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+           
         </nav>
 </header>
+
 <div class="headline-container">
     <section class="last-headline">
-        <p class="slogan">Category is... ArtScope!</p>
-        <h1 class="my-h1">YOUR POINT OF VIEW BECOMES A GLOBAL EXPERIENCE</h1>
+        <p class="slogan">"Succes beyond the infinity!"</p>
+        <h1 class="my-h1">ArtScope, YOUR POINT OF VIEW BECOMES A GLOBAL EXPERIENCE</h1>
     </section>
 
-    <div class="intro-container">
+   <div class="intro-container">
         <p class="intro">
             Art and technology are mixed to change lives from over 80 countries.
             Spacial photography career teached by the most starring professionals,
             developing the last social advances in a visual world. 
         </p>
 
+     <div class="intro-info">
         <p class="companydate">
-            BUILT IN 01.10 ~ (2022)
+          2022.08.10(THU) ~ 16(WED)
         </p>
 
         <p class="companylocation">
-            @Monagas, Venezuela, ArtScope ArTech Collage
+            @Monagas, Venezuela, ArtScope ArTech Institute
         </p>
-    </div>
+      </div> 
+     </div>
+  </div>
 </div>
+
 <section class="main">
   <h2 class="info-section">Program Information</h2>
   
-
+  <div class="cards-container">
     <div class="card">
         <img src="images/icon-11.png" alt="#" class="info-icon">
         <p class="card-title">Conference</p>
@@ -83,12 +103,14 @@
         <p class="card-title">Conference</p>
         <p class="card-info">Listen to lectures from speakers from around the world and learn about the latest trends in the world.</p>
     </div>
-
+</div>
     <button class="join-button"> Join ArtScope Spacial Photography</button>
+    <a href="#" class="see-program-button">SEE THE WHOLE PROGRAM</a>
 </section>
 
 <section class="speakers-section">
     <h2 class="speakers-title">Featured speakers</h2>
+  <div class="speakers-card-container">
     <div class="card-speaker">
         <img src="images/portraita-1.png" alt="" class="speaker-profile">
         <article class="speaker-info-container">
@@ -143,11 +165,28 @@
             <p class="speaker-info">Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.</p>
         </article>
     </div>
-
+  </div> 
     <button class="more-button">MORE <img src="images/more-icon.png" alt="#" class="more-icon"></button>
 </section>
 
+<section class="sponsors">
+    <h2 class="partner">Partner</h2>
+    <div class="partner-logo">
+        <img src="images/partner1.png" alt="Dell" class="logo1">
+        <img src="images/partner2.png" alt="Nikon" class="logo1">
+        <img src="images/partner4.png" alt="IBM" class="logo1">
+        <img src="images/partner5.png" alt="Pinterest" class="logo1">
+        <img src="images/partner6.png" alt="Disney" class="logo1">
+    </div>
+</section>
 
+<footer>
+    <img src="images/rights-small.png" alt="ArtScope Logo" class="footer-logo">
+    <div class="rights-info">
+        <h4>2022 ArtScope Project. Made by Angel Uray.</h4>
+        <p>All rights reserved.</p>
+    </div>
+</footer>
 
 <script src="js/index.js"></script>
 </body>
