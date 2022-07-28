@@ -46,8 +46,8 @@
     display: flex;
     flex-direction: column;
     padding: 25px;
-    background-color: rgba(0, 0, 0, 0.674);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.786);
+    backdrop-filter: blur(8px);
     width: 100%;
     height: 100%;
     text-align: left;
@@ -57,19 +57,35 @@
   .menu-sections {
       display: flex;
       flex-direction: column;
-      gap: 25px;
-      margin-top: 50px;
+      margin-top: 60px;
+      font-family: 'Lato', sans-serif;
+  }
+
+  .menu-sections li {
+    width: 95%;
+    padding: 25px;
+    border-top: 1px solid rgba(228, 228, 228, 0.295);
+    transition: 0.5 ease;
+  }
+
+  .link-4 {
+    border-bottom: 1px solid rgba(228, 228, 228, 0.295);
   }
   
   .link-nav {
-    transition: 0.7s ease;
+    transition: 0.8s ease;
     color: white;
     margin: 16px 0;
     font-size: 1em;
   }
   
   .link-nav:hover {
-    color: orange;
+    color: #ec5242;
+  }
+
+  .menu-sections li:hover {
+    border-top: 1px solid rgba(228, 228, 228, 0.605);
+    border-bottom: 1px solid rgba(228, 228, 228, 0.605);
   }
   
   .bar {
@@ -141,7 +157,7 @@
    }
    
    .slogan {
-     font-family: 'Nanum Gothic', sans-serif;
+     font-family: 'Lato', sans-serif;
      font-size: 25px;
      color: #ec5242;
    }
@@ -151,7 +167,7 @@
     line-height: 55px;
     color: transparent;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 600;
     width: 100%;
     background-image: url(../images/h1-bkg2.jpg);
     background-size: cover;
@@ -172,11 +188,12 @@
      border: 4px solid rgb(255, 255, 255);
      background-color: rgb(247, 247, 248);
      text-align: justify;
+     font-family: 'Lato', sans-serif;
    }
    
    .contact-message {
      padding: 40px 40px 10px 40px;
-     font: 400 15px Verdana;
+     font: 400 15px 'Lato', sans-serif;;
      color: rgb(51, 51, 51);
      text-align: center;
      line-height: 22px;
@@ -184,10 +201,9 @@
    }
    
    .email-info {
-     font: 700 13px Verdana;
+     font: 700 14px 'Lato', sans-serif;;
      color: rgb(51, 51, 51);
-     text-decoration: solid black !important;
-     /*hace falta poner la linea debajo del link tag aqui*/
+     text-decoration: underline;
    }
    
    .intro-container {
@@ -203,22 +219,20 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    border-bottom: 1px solid rgb(51, 51, 51);
+    border: 1px solid rgb(228, 228, 228);
     padding: 51px 25px 0 25px;
    }
 
    .title-logo-section {
     text-align: center;
     font-size: 24px;
-    font-family: 'Nanum Gothic', sans-serif;
-    border-bottom: 1px solid rgb(239, 81, 60);
-    padding: 15px;
+    font-family: 'Lato', sans-serif;
    }
 
    .info-logo-section {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
-    margin: 30px;
+    margin: 0;
     font-size: 16px;
     line-height: 24px;
     color: rgb(51, 51, 51);
@@ -228,7 +242,7 @@
     width: 75%;
     height: 20%;
     margin: 55px;
-    border: 1px solid black;
+    border: 1px solid rgb(228, 228, 228);
    }
 
    .previous-cohort {
@@ -243,23 +257,30 @@
    .cards-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     margin-top: 30px;
     padding: 0 15px;
    }
 
    .cards-container h2 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
-    border-bottom: 1px solid rgb(239, 81, 60);
-    padding: 15px;
+    
    }
 
    .cards-container p {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
+   }
+
+   .cohort-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
    }
 
    .cohort1 {
@@ -267,11 +288,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     background-image: url(../images/astronomy-picture.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: inset 0 0 0 100px rgb(239, 81, 60, 0.5);
+    box-shadow: inset 0 0 0 100px rgba(239, 81, 60, 0.668);
     width: 80%;
     height: 200px;
     color: #fff;
@@ -282,11 +303,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     background-image: url(../images/astronomy-picture-3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: inset 0 0 0 100px rgb(239, 81, 60, 0.5);
+    box-shadow: inset 0 0 0 100px rgba(239, 81, 60, 0.668);
     width: 80%;
     height: 200px;
     color: #fff;
@@ -294,12 +315,13 @@
    }
 
    .cohort-date {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 35px;
+    font-family: cocogoose ;
+    font-size: 50px;
+    font-weight: 700;
    }
 
    .cohort-description {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 600;
    }
@@ -316,8 +338,8 @@
    .partner {
    text-align: center;
    font-size: 24px;
-   font-family: 'Nanum Gothic', sans-serif;
-   border-bottom: 1px solid rgb(239, 81, 60);
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
    padding: 8px;
    width: 40%;
    color: #fff;
@@ -344,4 +366,209 @@
   
   .footer-logo {
     width: 200px;
+  }
+
+  .rights-info {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .footer-logo-desktop {
+    display: none;
+  }
+
+  .organizer2 {
+    display: none;
+  }
+
+  .pre-nav {
+    display: none;
+  }
+
+  .underline {
+    width: 10%;
+    height: 1px;
+    background-color: #ec5242;
+    margin: 15px auto;
+  }
+
+  .underline-partner {
+    width: 25%;
+    height: 1px;
+    background-color: #ec5242;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    header {
+      background-color: #272a31;
+    }
+
+    .pre-nav {
+      background-color: #272a31;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px;
+      max-width: 87%;
+      margin: 0 auto;
+    }
+
+    .pre-nav-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .pre-nav-actions {
+      display: flex;
+      gap: 16px;
+      margin-left: 20px;
+      padding-right: 25px;
+      font-family: 'Lato', sans-serif;
+      color: #d3d3d3;
+    }
+
+    .nav-bar {
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+  
+    .menu-stn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .logo {
+      display: block;
+    }
+
+    .logo2 {
+      width: 160px;
+      height: 60px;
+    }
+  
+    .organizer2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .menu-button-container {
+      display: flex;
+      gap: 40px;
+    }
+  
+    .link-nav {
+      color: black;
+      transition: 0.7s ease;
+      font-family: 'Lato', sans-serif;
+    }
+  
+    .link-nav:hover {
+      color: #ec5242;
+    }
+
+    .nav-button {
+      font-family: cocogoose;
+      padding: 11px;
+      border: 5px solid #ec5242;
+      background-color: #fff;
+      color: #ec5242;
+    }
+
+    .burger-menu {
+      display: none;
+    }
+
+    .organizer {
+      display: none;
+    }
+
+    .headline-container {
+      margin: 0 auto;
+      max-width: 55%;
+      padding: 70px;
+    }
+
+    .slogan {
+      display: none;
+    }
+
+    .logo-section {
+      max-width: 55%;
+      margin: 0 auto;
+      border: none;
+    }
+
+    .big-logo {
+      width: 55%;
+    }
+
+    .previous-cohort {
+      border-top: 1px solid rgb(228, 228, 228);
+      padding: 50px;
+    }
+
+    .cohort-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px 100px;
+    }
+
+    .cohort1,
+    .cohort2 {
+      width: 350px;
+      height: 200px;
+      cursor: pointer;
+    }
+
+    .cohort2 {
+      margin-bottom: 0;
+    }
+
+    .sponsors {
+      display: none;
+    }
+
+    footer {
+      background-color: rgb(46, 46, 46);
+    }
+
+    .footer-logo {
+      display: none;
+    }
+
+    .footer-logo-desktop {
+      display: block;
+      width: 200px;
+    }
+
+    .rights-info {
+      color: white;
+    }
+
+    .underline {
+      width: 10%;
+      height: 1px;
+      background-color: #ec5242;
+      margin: 22px auto;
+    }
+  
+    .underline-partner {
+      width: 25%;
+      height: 1px;
+      background-color: #ec5242;
+      margin: 0 auto;
+    }
   }
