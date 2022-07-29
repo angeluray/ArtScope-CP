@@ -309,7 +309,7 @@ h1 {
 .speakers-card-container {
  align-items: center;
  gap: 20px;
- margin: 40px 10px;
+ margin: 10px 10px;
  padding: 0 12px;
 }
 
@@ -319,7 +319,6 @@ h1 {
   font-weight: 600;
   color: #272a31;
   margin: 20px;
-  padding-bottom: 8px;
 }
 
 .speaker-profile {
@@ -359,6 +358,7 @@ h1 {
 .speaker-info {
   font-size: 13px;
   font-family: 'Lato', sans-serif;
+  text-align: justify;
 }
 
 hr {
@@ -442,6 +442,14 @@ footer {
 
 .pre-nav {
   display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.speakers-card-container.morebtn .hide {
+  display: flex;
 }
 
 @media only screen and (min-width: 768px) {
@@ -623,7 +631,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
+    gap: 35px;
+    margin: 40px auto;
+  }
+
+  .hide {
+    display: flex;
   }
 
   .more-button {
