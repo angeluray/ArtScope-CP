@@ -14,42 +14,46 @@
 - CSS
 - JS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://angeluray.github.io/angelCapstone-project/)
 
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running it, follow these simple steps.
 
 ### Prerequisites
 
+- Internet Service.
+- Basic Knowledge about Git and Github.
+- VSCode.
+
 ### Setup
+
+1. Create an empty folder in your computer to store the clone.
+
+2. Copy the following link and paste it into your VSCode or your terminal:
+
+> git@github.com:angeluray/angelCapstone-project.git
+
+3. Store it in the file you created before.
+
+4. Create a new branch for working and make changes to adapt it according to your requirements.
 
 ### Install
 
+To install linters please open the ***.github/workflows*** then get into ***linters.yml*** and check the instructions and commands.
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+For educational purpose only, use it as a guideline.
 
 ## Authors
 
-👤 **Author1**
+👤 **Angel Uray**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@angeluray](https://github.com/angeluray)
 
 ## 🤝 Contributing
 
@@ -63,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to the autor of the original design Cindy Shin, The Microverse team and my Coding partners through this module.
+- ***“There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind.” —Mister Rogers***
 
 ## 📝 License
 
