@@ -18,6 +18,10 @@
 
 [Live Demo Link](https://angeluray.github.io/angelCapstone-project/)
 
+## Video Presentation
+
+[Capstone project video presentation](https://youtu.be/QDnpQke4bnI)
+
 
 ## Getting Started
 
