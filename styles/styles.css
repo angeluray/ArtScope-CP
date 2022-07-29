@@ -244,7 +244,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 28px;
+  gap: 20px;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
   margin: 0px 0px 0.5em;
@@ -269,11 +269,12 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);
+  text-align: justify;
 }
 
 .card-title {
   color: #ec5242;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
 }
@@ -600,7 +601,7 @@ footer {
 
   .card-info {
     text-align: center;
-    line-height: 20px;
+    line-height: 18px;
   }
 
   .join-button {
