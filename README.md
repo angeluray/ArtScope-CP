@@ -4,9 +4,9 @@
 
 > Capstone Project of Module 1.
 
-# Project Name
+# ArtScope
 
-> This is the final project of the module 1 in Microverse our approach was put in practice all the skills we got through our first module, such as Set up linters, Git and the Github Flow, Flexbox and Grid, HTML/CSS and JS best practices to recreate a webpage from scratch using visual content.
+> This is the final project of the module 1 in Microverse our approach was put in practice all the skills we got through our first module, such as Set up linters, Git and the Github Flow, Flexbox and Grid, HTML/CSS and JS best practices to recreate a webpage from scratch using visual content/guidelines.
 
 ## Built With
 
