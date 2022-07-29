@@ -35,7 +35,7 @@ li {
 }
 
 .logo {
-    display: none;
+  display: none;
 }
 
 .organizer {
@@ -55,10 +55,10 @@ li {
 }
 
 .menu-sections {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  font-family: 'Lato', sans-serif;
 }
 
 .menu-sections li {
@@ -89,13 +89,13 @@ li {
 }
 
 .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
 }
 
 .bar-1 {
@@ -147,12 +147,13 @@ body.active {
 }
 
 .last-headline {
- display: flex;
- flex-direction: column;
- gap: 7px;
- text-align: left;
- /*margin: 0 auto;*/
- padding: 25px 25px 0 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+
+  /* margin: 0 auto; */
+  padding: 25px 25px 0 25px;
 }
 
 .slogan {
@@ -177,7 +178,7 @@ h1 {
 }
 
 .intro {
-  margin: 17px 0.75em 0px;
+  margin: 17px 0.75em 0;
   width: calc(100% - 2.5em);
   padding: 1em 0.5em;
   line-height: 150%;
@@ -195,8 +196,8 @@ h1 {
 }
 
 .companydate {
-  padding: 20px 0px 0px;
-  font: 700 27px cocogoose;
+  padding: 20px 0 0;
+  font: 700 27px COCOGOOSE, sans-serif;
   color: #272a31;
 }
 
@@ -214,7 +215,7 @@ h1 {
 }
 
 .main {
-  background-image: url(../images/My\ project-1\ \(12\).png);
+  background-image: url(../images/mypro-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -230,14 +231,18 @@ h1 {
   font-size: 24px;
   color: rgb(255, 255, 255);
   padding-bottom: 8px;
-  margin: 50px;
+  margin: 8px;
 }
 
 .underline {
-  width: 25%;
+  width: 10%;
   height: 1px;
   background-color: #ec5242;
-  margin: 15px auto;
+  margin: 8px auto;
+}
+
+.title-cont {
+  margin: 15px;
 }
 
 .card {
@@ -247,9 +252,8 @@ h1 {
   gap: 20px;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
-  margin: 0px 0px 0.5em;
+  margin: 0 0 0.5em;
   padding: 16px 16px;
-  width: 100%;
   transition: 0.5s ease;
 }
 
@@ -301,17 +305,18 @@ h1 {
 }
 
 .speakers-section {
- display: flex;
- flex-direction: column;
- align-items: center;
- margin: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 5px;
 }
 
 .speakers-card-container {
- align-items: center;
- gap: 20px;
- margin: 10px 10px;
- padding: 0 12px;
+  font-family: 'Lato', sans-serif;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 10px;
+  padding: 0 12px;
 }
 
 .speakers-title {
@@ -319,7 +324,7 @@ h1 {
   font-size: 24px;
   font-weight: 600;
   color: #272a31;
-  margin: 20px;
+  margin: 15px;
 }
 
 .speaker-profile {
@@ -353,7 +358,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  padding: 25px 0px;
+  padding: 25px 0;
 }
 
 .speaker-info {
@@ -390,31 +395,30 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 5px;
   padding: 20px 0 30px 0;
- }
+}
 
- .partner {
- text-align: center;
- font-size: 24px;
- font-family: 'Lato', sans-serif;
- font-weight: 500;
- padding: 15px;
- width: 40%;
- color: #fff;
- }
+.partner {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  padding: 3px;
+  color: #fff;
+}
 
- .partner-logo {
+.partner-logo {
   display: flex;
   justify-content: center;
   gap: 25px;
-  padding: 0 15px 0px 15px;
+  padding: 0 15px 0 15px;
   width: 90%;
- }
+}
 
- .logo1 {
+.logo1 {
   width: 50px;
- }
+}
 
 footer {
   display: flex;
@@ -431,7 +435,6 @@ footer {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
 }
-
 
 .see-program-button {
   display: none;
@@ -454,7 +457,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-
   header {
     background-color: #272a31;
   }
@@ -475,11 +477,14 @@ footer {
   }
 
   .pre-nav-actions {
+    font-family: 'Lato', sans-serif;
     display: flex;
     gap: 16px;
     margin-left: 20px;
     padding-right: 25px;
-    font-family: 'Lato', sans-serif;
+  }
+
+  h5 a {
     color: #d3d3d3;
   }
 
@@ -490,7 +495,7 @@ footer {
     align-items: center;
     padding: 0 20px;
     background-color: white;
-    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   .menu-stn {
@@ -547,7 +552,7 @@ footer {
   }
 
   .nav-button {
-    font-family: cocogoose;
+    font-family: 'COCOGOOSE', sans-serif;
     padding: 11px;
     border: 5px solid #ec5242;
     background-color: #fff;
@@ -560,7 +565,7 @@ footer {
     align-items: flex-start;
     max-width: 85%;
     margin: 0 auto;
-    padding: 75px 0px 25px 0px;
+    padding: 75px 0 25px 0;
   }
 
   .last-headline {
@@ -575,9 +580,9 @@ footer {
   }
 
   .main {
-  justify-content: center;
-  align-items: center;
-  padding: 20px 15px 40px 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 40px 15px;
   }
 
   .cards-container {
@@ -587,11 +592,11 @@ footer {
   }
 
   .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
   }
 
   .card-title {
@@ -648,11 +653,7 @@ footer {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.388);
-    padding: 5px;
-  }
-
-  .underline-partner {
-    width: 10%;
+    margin-bottom: 10px;
   }
 
   .logo1 {
@@ -665,13 +666,12 @@ footer {
   }
 
   .partner-logo {
-  justify-content: space-between;
-  gap: 25px;
-  width: 50%;
+    justify-content: space-between;
+    gap: 25px;
+    width: 50%;
   }
 
   footer {
     padding: 40px;
   }
-
 }
