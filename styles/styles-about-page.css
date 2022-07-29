@@ -312,7 +312,7 @@ h1 {
 }
 
 .cohort-date {
-  font-family: cocogoose;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 50px;
   font-weight: 700;
 }
@@ -395,10 +395,6 @@ footer {
   margin: 0 auto;
 }
 
-.underline {
-  width: 10%;
-}
-
 @media only screen and (min-width: 768px) {
   header {
     background-color: #272a31;
@@ -478,7 +474,7 @@ footer {
   }
 
   .nav-button {
-    font-family: cocogoose;
+    font-family: 'COCOGOOSE', sans-serif;
     padding: 11px;
     border: 5px solid #ec5242;
     background-color: #fff;
