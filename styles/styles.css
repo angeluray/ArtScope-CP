@@ -241,6 +241,13 @@ h1 {
   margin: 8px auto;
 }
 
+.underline-2 {
+  width: 30%;
+  height: 1px;
+  background-color: #ec5242;
+  margin: 8px auto;
+}
+
 .title-cont {
   margin: 15px;
 }
@@ -622,7 +629,7 @@ footer {
   }
 
   .speakers-title {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
   }
 
   .speaker-info {
