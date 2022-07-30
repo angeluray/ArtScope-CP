@@ -151,8 +151,6 @@ body.active {
   flex-direction: column;
   gap: 7px;
   text-align: left;
-
-  /* margin: 0 auto; */
   padding: 25px 25px 0 25px;
 }
 
