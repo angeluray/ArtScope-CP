@@ -6,7 +6,7 @@ This is Artscope, a HTML/CSS and JS based website for a photography institution 
 - `Webhint`: that helped me improve the site's accessibility, speed, cross-browser compatibility, and more.
 - `Stylelinter`: that helped to avoid errors and enforce CSS conventions. 
 
-The overall style and positioning was made using pure CSS, following Flexbox, and Grid layout models simultaneously.
+The overall style and positioning was made using pure CSS, following Flexbox and Grid layout models simultaneously.
 
 ## Built With
 
