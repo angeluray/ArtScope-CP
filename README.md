@@ -18,11 +18,6 @@ The overall style and positioning was made using pure CSS, following Flexbox and
 
 [Live Demo Link](https://angeluray.github.io/angelCapstone-project/)
 
-## Video Presentation
-
-## [Capstone project video presentation](https://youtu.be/QDnpQke4bnI)
-
-
 ## Getting Started
 
 To get a local copy up and running it, follow these simple steps.
