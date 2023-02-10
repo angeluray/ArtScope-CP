@@ -1,6 +1,12 @@
 # ArtScope
 
-> This is the final project of the module 1 in Microverse our approach was put in practice all the skills we got through our first module, such as Set up linters, Git and the Github Flow, Flexbox and Grid, HTML/CSS and JS best practices to recreate a webpage from scratch using visual content/guidelines.
+This is Artscope, a HTML/CSS and JS based website for a photography institution that mix photography with astronomy and teach students from all around the world spacial photography. For creating this web I have set up linters such as:
+
+- `Lighthouse`: that gives me global performance insights about the page with a single test.
+- `Webhint`: that helped me improve the site's accessibility, speed, cross-browser compatibility, and more.
+- `Stylelinter`: that helped to avoid errors and enforce CSS conventions. 
+
+The overall style and positioning was made using pure CSS, following Flexbox, and Grid layout models simultaneously.
 
 ## Built With
 
@@ -14,7 +20,7 @@
 
 ## Video Presentation
 
-[Capstone project video presentation](https://youtu.be/QDnpQke4bnI)
+## [Capstone project video presentation](https://youtu.be/QDnpQke4bnI)
 
 
 ## Getting Started
@@ -65,7 +71,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Special thanks to the autor of the original design Cindy Shin, The Microverse team and my Coding partners through this module.
+- Special thanks to the autor of the original design Cindy Shin.
 - ***“There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind.” —Mister Rogers***
 
 ## 📝 License
